@@ -6,10 +6,10 @@ import org.springframework.http.HttpStatus;
 
 @RequiredArgsConstructor
 @Getter
-public class ReyfowException extends RuntimeException{
+public class ReyfowException extends RuntimeException {
 
     private final HttpStatus statusCode;
 
-    private final  String message;
+    private final String message;
 
 }
